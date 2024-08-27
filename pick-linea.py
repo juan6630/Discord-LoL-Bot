@@ -1,8 +1,10 @@
 import discord
 import random
+import os
 from discord.ext import commands
 
-TOKEN = 
+
+TOKEN = os.getenv('TOKEN')
 
 intents = discord.Intents.default()
 intents.members = True
